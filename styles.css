@@ -1,0 +1,73 @@
+ body{
+  background-image: url("d11.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  padding: 20px 0 20px 0;
+  text-shadow: 10px 10px 20px pink;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100px;
+}
+img{
+  height: 300px;
+  width: 300px;
+  border: 3px solid pink;
+  opacity: 0.7;
+}
+img:hover{
+  box-shadow: 5px 5px 10px 10px gray;
+  opacity: 1;
+  height: 350px;
+  width: 350px;
+  cursor: pointer;
+}
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img1{
+  flex: 25%;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact_form{
+  margin-top: 100px;
+  background-color: rgb(59, 58, 56);
+  width: 100%;
+  height: auto;
+}
+
+form{
+  font-size: 34px;
+}
+input{
+  background-color:  rgb(59, 58, 56);
+  border: none;
+  border-bottom: 4px solid white;
+  color: white;
+  font-size: 34px;
+}
+
+input:focus, textarea:focus{
+  outline: none;
+  box-shadow: 5px 5px 10px 10px gray;
+}
+legend{
+  text-align: center;
+}
+button{
+  box-shadow: 2px 2px 5px 5px white;
+  background-color: blue;
+}
